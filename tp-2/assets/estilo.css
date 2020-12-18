@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: white;
+}
+.mt-132 {
+  margin-top: 132px;
+}
+.mt-40 {
+  margin-top: -40px;
+}
+
+a {
+  color: rgb(68, 66, 66);
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  color: rgb(68, 66, 66);
+}
+a:hover {
+  text-decoration: none;
+  color: #b14545;
+}
+.navbar-brand {
+  font-size: 40px;
+}
+.container-cards {
+  padding-top: 30px;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(30, 49, 2);
+  text-shadow: 0px 2px 5px rgb(30, 49, 2);
+  font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #b14545;
+}
+
+Body {
+  font-family: "Niramit", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+.logo {
+  width: 20%;
+}
+.navbar-toggler:hover {
+  background-color: blanchedalmond;
+}
+.carousel-inner {
+  padding-top: 10px;
+}
+.list-inline-item {
+  width: 10%;
+}
+.social-bar {
+  top: 35%;
+  font-size: 1.5rem;
+}
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: 0.7rem;
+  transition: 0.1s;
+  border-radius: 10px;
+  text-align: center;
+}
+.icon-facebook {
+  background: blue;
+}
+.icon-twitter {
+  background: lightseagreen;
+}
+.icon-instagram {
+  background: red;
+}
+
+.icon:hover {
+  color: black;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+
+.container-cards .card {
+  transition: 0.5s;
+}
+.container-cards .card:hover {
+  transform: translateY(-20px);
+}
+.container .section img {
+  width: 100%;
+}
+.container-article {
+  padding-top: 30px;
+}
+.btn {
+  background-color: #b14545;
+  border: honeydew;
+}
+.btn:hover {
+  background-color: #c1b5c6;
+  color: rgb(68, 66, 66);
+}
+.container {
+  margin-top: 30px;
+}
+.tabla-container {
+  display: grid;
+  border-radius: 30px;
+}
+
+#tabla,
+td,
+th {
+  border: 3px solid rgba(93, 105, 97, 0.801);
+}
+#tabla {
+  text-align: center;
+  background-image: url("img/Oscars.jpg");
+  background-size: contain 5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+#tabla,
+td,
+button {
+  margin: 5px 5px 5px 10px;
+}
+.button {
+  background-color: darksalmon;
+}
+.bg {
+  background-image: url("img/Oscars.jpg");
+}
+.show-celda {
+  display: table-row;
+}
